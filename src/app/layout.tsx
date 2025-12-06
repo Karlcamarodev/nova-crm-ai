@@ -3,11 +3,10 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 const siteName = "NovaCRM AI";
-const siteUrl = "https://nova-crm-ai.vercel.app"; // cuando lo sepas, actualízalo
+const siteUrl = "https://nova-crm-ai.vercel.app";
 const siteDescription =
   "NovaCRM AI es un CRM moderno conectado a PostgreSQL y Prisma, con paneles analíticos y flujos inteligentes para tus clientes.";
 
-// Metadatos SEO + OpenGraph + Twitter
 export const metadata: Metadata = {
   title: {
     default: siteName,
@@ -30,14 +29,20 @@ export const metadata: Metadata = {
   generator: "Next.js 14 + TypeScript",
   category: "business",
 
+  // 👇 Aquí el favicon y variantes
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon.ico" },
     ],
-    apple: "/apple-touch-icon.png",
-    shortcut: "/favicon.ico",
+    apple: [
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    shortcut: ["/favicon-32x32.png"],
   },
 
   manifest: "/site.webmanifest",
@@ -64,7 +69,7 @@ export const metadata: Metadata = {
     title: siteName,
     description: siteDescription,
     images: ["/android-chrome-512x512.png"],
-    creator: "@karlcamarodev", // cuando tengas el handle, cámbialo
+    creator: "@karlcamarodev",
   },
 
   robots: {
@@ -77,7 +82,6 @@ export const metadata: Metadata = {
   },
 };
 
-// Configuración de viewport / theme-color para móviles
 export const viewport: Viewport = {
   themeColor: "#020617",
 };
