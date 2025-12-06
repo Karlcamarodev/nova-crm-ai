@@ -1,36 +1,230 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 NovaCRM AI  
+CRM moderno, modular y potenciado con arquitectura preparada para IA.
 
-## Getting Started
+NovaCRM AI es un CRM profesional construido con **Next.js 14**, **Prisma ORM v7**, **PostgreSQL**, **Zod**, **Recharts**, y una UI moderna estilo SaaS.  
+Forma parte del ecosistema de proyectos profesionales de **KarlCamarodev**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Vista general del proyecto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🖼 Hero (Página principal)
+![NovaCRM AI – Hero](./docs/screenshots/hero.webp)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📊 Dashboard
+![NovaCRM AI – Dashboard](./docs/screenshots/dashboard.webp)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 👥 Módulo de clientes
+![NovaCRM AI – Clientes](./docs/screenshots/clients-module-mockup.webp)
 
-## Learn More
+### 💻 Mockup del sistema
+![NovaCRM AI – Laptop Mockup](./docs/screenshots/laptop-mockup.webp)
 
-To learn more about Next.js, take a look at the following resources:
+### 🔷 Icono oficial del sistema
+![NovaCRM AI – Logo](./docs/screenshots/logo.webp)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# ✨ Características principales
 
-## Deploy on Vercel
+### ✔ Gestión de Clientes (Módulo Activo)
+- Crear clientes con validación estricta mediante **Zod**.  
+- Almacenamiento seguro usando **Prisma + PostgreSQL**.  
+- Campos opcionales normalizados (email, empresa, notas).  
+- Estado del cliente: `ACTIVE`, `INACTIVE`, `LEAD`.  
+- Listado actualizado en tiempo real con el App Router de Next.js.  
+- UI profesional estilo SaaS con modo oscuro.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 📊 Dashboard Inteligente
+
+Implementado con **Recharts**, incluye:
+
+- Métricas principales  
+- Nuevos clientes por día (últimos 7 días)  
+- Distribución por estado  
+- Diseño responsive y minimalista  
+
+---
+
+# 🧩 Arquitectura del Proyecto
+
+### Tecnologías principales
+
+| Tecnología | Uso |
+|-----------|-----|
+| **Next.js 14** | App Router, API Routes, Server Actions |
+| **Prisma ORM v7** | Base de datos y modelos relacionales |
+| **PostgreSQL** | Base de datos principal |
+| **Zod** | Validación estricta |
+| **Recharts** | Visualización de datos |
+| **TypeScript** | Tipado estricto |
+
+---
+
+# 🗂 Estructura del proyecto
+
+# 🚀 NovaCRM AI  
+CRM moderno, modular y potenciado con arquitectura preparada para IA.
+
+NovaCRM AI es un CRM profesional construido con **Next.js 14**, **Prisma ORM v7**, **PostgreSQL**, **Zod**, **Recharts**, y una UI moderna estilo SaaS.  
+Forma parte del ecosistema de proyectos profesionales de **KarlCamarodev**.
+
+---
+
+## 📌 Vista general del proyecto
+
+### 🖼 Hero (Página principal)
+![NovaCRM AI – Hero](./docs/screenshots/hero.webp)
+
+### 📊 Dashboard
+![NovaCRM AI – Dashboard](./docs/screenshots/dashboard.webp)
+
+### 👥 Módulo de clientes
+![NovaCRM AI – Clientes](./docs/screenshots/clients-module-mockup.webp)
+
+### 💻 Mockup del sistema
+![NovaCRM AI – Laptop Mockup](./docs/screenshots/laptop-mockup.webp)
+
+### 🔷 Icono oficial del sistema
+![NovaCRM AI – Logo](./docs/screenshots/logo.webp)
+
+---
+
+# ✨ Características principales
+
+### ✔ Gestión de Clientes (Módulo Activo)
+- Crear clientes con validación estricta mediante **Zod**.  
+- Almacenamiento seguro usando **Prisma + PostgreSQL**.  
+- Campos opcionales normalizados (email, empresa, notas).  
+- Estado del cliente: `ACTIVE`, `INACTIVE`, `LEAD`.  
+- Listado actualizado en tiempo real con el App Router de Next.js.  
+- UI profesional estilo SaaS con modo oscuro.
+
+---
+
+# 📊 Dashboard Inteligente
+
+Implementado con **Recharts**, incluye:
+
+- Métricas principales  
+- Nuevos clientes por día (últimos 7 días)  
+- Distribución por estado  
+- Diseño responsive y minimalista  
+
+---
+
+# 🧩 Arquitectura del Proyecto
+
+### Tecnologías principales
+
+| Tecnología | Uso |
+|-----------|-----|
+| **Next.js 14** | App Router, API Routes, Server Actions |
+| **Prisma ORM v7** | Base de datos y modelos relacionales |
+| **PostgreSQL** | Base de datos principal |
+| **Zod** | Validación estricta |
+| **Recharts** | Visualización de datos |
+| **TypeScript** | Tipado estricto |
+
+---
+
+# 🗂 Estructura del proyecto
+
+# 🚀 NovaCRM AI  
+CRM moderno, modular y potenciado con arquitectura preparada para IA.
+
+NovaCRM AI es un CRM profesional construido con **Next.js 14**, **Prisma ORM v7**, **PostgreSQL**, **Zod**, **Recharts**, y una UI moderna estilo SaaS.  
+Forma parte del ecosistema de proyectos profesionales de **KarlCamarodev**.
+
+---
+
+## 📌 Vista general del proyecto
+
+### 🖼 Hero (Página principal)
+![NovaCRM AI – Hero](./docs/screenshots/hero.webp)
+
+### 📊 Dashboard
+![NovaCRM AI – Dashboard](./docs/screenshots/dashboard.webp)
+
+### 👥 Módulo de clientes
+![NovaCRM AI – Clientes](./docs/screenshots/clients-module-mockup.webp)
+
+### 💻 Mockup del sistema
+![NovaCRM AI – Laptop Mockup](./docs/screenshots/laptop-mockup.webp)
+
+### 🔷 Icono oficial del sistema
+![NovaCRM AI – Logo](./docs/screenshots/logo.webp)
+
+---
+
+# ✨ Características principales
+
+### ✔ Gestión de Clientes (Módulo Activo)
+- Crear clientes con validación estricta mediante **Zod**.  
+- Almacenamiento seguro usando **Prisma + PostgreSQL**.  
+- Campos opcionales normalizados (email, empresa, notas).  
+- Estado del cliente: `ACTIVE`, `INACTIVE`, `LEAD`.  
+- Listado actualizado en tiempo real con el App Router de Next.js.  
+- UI profesional estilo SaaS con modo oscuro.
+
+---
+
+# 📊 Dashboard Inteligente
+
+Implementado con **Recharts**, incluye:
+
+- Métricas principales  
+- Nuevos clientes por día (últimos 7 días)  
+- Distribución por estado  
+- Diseño responsive y minimalista  
+
+---
+
+# 🧩 Arquitectura del Proyecto
+
+### Tecnologías principales
+
+| Tecnología | Uso |
+|-----------|-----|
+| **Next.js 14** | App Router, API Routes, Server Actions |
+| **Prisma ORM v7** | Base de datos y modelos relacionales |
+| **PostgreSQL** | Base de datos principal |
+| **Zod** | Validación estricta |
+| **Recharts** | Visualización de datos |
+| **TypeScript** | Tipado estricto |
+
+---
+
+# 🗂 Estructura del proyecto
+
+nova-crm-ai/
+│
+├── prisma/
+│── src/
+│ ├── app/
+│ │ ├── dashboard/
+│ │ ├── clients/
+│ │ └── api/clients/route.ts
+│ ├── lib/prisma.ts
+│
+├── docs/screenshots/
+│ hero.webp
+│ dashboard.webp
+│ clients-module-mockup.webp
+│ laptop-mockup.webp
+│ logo.webp
+│
+├── public/
+└── README.md
+👨‍💻 Autor
+
+Karl Camarodev
+Desarrollador Fullstack | Arquitecto de Software
+
+GitHub: https://github.com/Karlcamarodev
+
+📄 Licencia
+
+MIT License.
